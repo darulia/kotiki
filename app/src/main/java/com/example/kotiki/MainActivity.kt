@@ -16,6 +16,14 @@ class MainActivity : AppCompatActivity() {
         startActivity(intent)
     }
 
+    fun main() {
+
+        val alice: Person = Person("Alice", 24)
+        println(alice.toString())
+    }
+
+    class Person(val name: String, val age: Int)
+
     fun onClickGoTwo(view: View) {
         val intent = Intent(this, kotiki2::class.java)
         startActivity(intent)

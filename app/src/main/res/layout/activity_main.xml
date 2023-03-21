@@ -50,18 +50,6 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.787" />
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="157dp"
-        android:layout_height="152dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.066"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.146"
-        app:srcCompat="@drawable/img_20210703_160530" />
-
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
@@ -134,5 +122,17 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.482"
         app:srcCompat="@drawable/img_20180710_181136" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="156dp"
+        android:layout_height="116dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.062"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.164"
+        app:srcCompat="@drawable/img_20210703_160530" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
